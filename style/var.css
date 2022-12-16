@@ -1,0 +1,45 @@
+:root{
+    /* Colors */
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --very-dark-blue: hsl(234, 12%, 34%);
+    --grayish-blue: hsl(229, 6%, 66%);
+    --very-light-gray: hsl(0, 0%, 98%);
+
+    /* Font family */
+    --family: 'Poppins', sans-serif;
+
+    /* Weights */
+    --light: 200;
+    --regular: 400;
+    --bold: 600;
+
+    /* font sizes */
+    --title-size: 2.07rem;
+    --card-title-size: 1.12rem;
+    --paragraph-size: 0.86rem;
+    --paragraph-card-size: 0.75rem;
+
+    
+    --light-title: var(--light) var(--title-size) var(--family);
+    --bold-title: var(--bold) var(--title-size) var(--family);
+    --card-title: var(--bold) var(--card-title-size) var(--family);
+    --paragraph: var(--regular) var(--paragraph-size) var(--family);
+    --paragraph-card: var(--regular) var(--paragraph-card-size) var(--family);
+
+    --border: 4px;
+    
+}
+
+@media screen and (max-width: 376px) {
+    :root{
+        --title-size: 0.95rem;
+        --paragraph-size: 0.58rem;
+        --card-title-size: 0.77rem;
+        --paragraph-card-size: 0.51rem;
+
+        --border: 3px
+    }
+}

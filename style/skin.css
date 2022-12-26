@@ -14,7 +14,7 @@ h2 {
 .header p {
     color: var(--grayish-blue);
     font: var(--paragraph);
-    line-height: 1.60;
+    line-height: 1.73;
     
     margin-top: 1.079rem;
 }
@@ -58,7 +58,7 @@ h4 {
     border-top: var(--border) var(--red) solid;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 261px) {
     h2 {
         line-height: 1.5;
     }
@@ -71,7 +71,7 @@ h4 {
         border-radius: 5px;
         box-shadow: 0px 9px 22px 1px #e3e3e3;
         
-        padding: 0.7rem 1rem;
+        padding: 0.90rem 1.2rem;
     }
 
     .card p{

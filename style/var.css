@@ -33,12 +33,12 @@
     
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 261px) {
     :root{
-        --title-size: 0.95rem;
-        --paragraph-size: 0.58rem;
-        --card-title-size: 0.77rem;
-        --paragraph-card-size: 0.51rem;
+        --title-size: 1.05rem;
+        --paragraph-size: 0.65rem;
+        --card-title-size: 0.85rem;
+        --paragraph-card-size: 0.57rem;
 
         --border: 3px
     }

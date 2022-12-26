@@ -25,8 +25,10 @@ html {
 .col-wrap{
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 2.7rem;
+
 }
 
 .inner-cont{
@@ -43,6 +45,7 @@ html {
 
 .column{
     width: 31.5%;
+    min-width: 210px;
 }
 
 .card-img-wrapper{
@@ -61,9 +64,8 @@ img{
     margin-top: 1.71rem;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 261px) {
     .col-wrap{ 
-        flex-direction: column;
         margin-top: 2.5rem;
     }
 
@@ -77,11 +79,11 @@ img{
 
     .inner-cont{
         width: 88%;
-        margin-top: 2.7rem;
+        margin-top: 3.12rem;
     }
 
     .card-img-wrapper{
-        margin-top: 1.3rem;
+        margin-top: 1.45rem;
     }
 
     .margin-x,
